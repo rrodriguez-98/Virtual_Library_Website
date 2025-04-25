@@ -356,9 +356,11 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentAuthor = ""
   let currentSummary = ""
   let currentImg = ""
+  let currentGenre = ""
   const titleSummary = document.getElementById("summary-title");
   const summary = document.getElementById("book-summary");
   const imgSummary = document.getElementById("summary-img");
+  const genreSummary = document.getElementById("summary-genre");
   const viewChoice = document.getElementById("view-choice")
   const viewSense = document.getElementById("view-sense")
   const viewRadium = document.getElementById("view-radium")
@@ -379,6 +381,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const authorFromLocalStorage = localStorage.getItem("current-author")
   const summaryFromLocalStorage = localStorage.getItem("current-summary")  
   const imgFromLocalStorage = localStorage.getItem("current-img")
+  const genreFromLocalStorage = localStorage.getItem("current-genre")
   
 
   if (summaryFromLocalStorage) {
@@ -392,6 +395,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   if (imgFromLocalStorage) {
     currentImg = imgFromLocalStorage
+  }
+  if(genreFromLocalStorage) {
+    currentGenre = genreFromLocalStorage
   }
 
   //Render current book summary dependent on what book is selected to be viewed
