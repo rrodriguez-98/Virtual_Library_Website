@@ -30,6 +30,7 @@
       </ul>
     </li>
     <li><a href="#usage">Features</a></li>
+    <li><a href="#improvements">Future Improvements</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -43,7 +44,7 @@
 As an avid reader, I wanted to share some of my good reads in a clear and intuitive format. The book summaries were generated with Chat GPT to save time. My main focus was on generating the format and functionality of my first website. I was able to use JavaScript to expand the functionality of my website and get the individualistic user interaction that I wanted. I was challenged a bit on how to make the book summaries, favorites selection, and genre breakdown of favorites dynamic.
 
 
-### Built With
+## Built With
 <a id="built-with"></a>
 * HTML
 * CSS
@@ -60,6 +61,14 @@ As an avid reader, I wanted to share some of my good reads in a clear and intuit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE IMPROVEMENTS -->
+<a id="improvements"></a>
+## Future Improvements
+* Search bar to look for books.
+* Filter options based on genre.
+* Option for user to add a comment on book summary.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 <a id="contact"></a>
