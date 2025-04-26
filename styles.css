@@ -222,6 +222,7 @@ hr{
     border-color: #F5EBE0;
     border-width: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
   }
 .select-random-bk-btn:hover{
     background-color: #E3D5CA;
@@ -438,14 +439,14 @@ label span {
         display: none;
     }
     .splashpage_icon{
-        height: 20%;
+        height: 12%;
     }
     .heading-container{
         padding-bottom: 20%;
-    }
+    }/*
     .full-screen-view{
         height: 30vh;
-    }
+    }*/
 }
 /*Set screens 600px and below*/
 @media only screen and (max-width: 600px){
