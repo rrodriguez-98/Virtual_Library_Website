@@ -474,6 +474,7 @@ label span {
     .book-card .book{
         width: 100%;
         height: auto;
+        padding: 0, 5%;
     }
     a .footer-links{
         padding: 0px;
@@ -486,7 +487,7 @@ label span {
     }
 .button-padding-browse {
     display:inline-block;
-    transform: translateY(-6rem);
+    transform: translateY(-2rem);
 }
 }
 /*Set screens 600.1px and above*/
