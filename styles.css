@@ -481,6 +481,9 @@ label span {
     .footer-container p{
         text-align: center;
     }
+    .about-me-container img{
+        height: 20%;
+    }
   }
 /*Set screens 601px and above*/
 @media only screen and (min-width: 601px) {
