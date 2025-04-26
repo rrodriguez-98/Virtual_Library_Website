@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/rrodriguez-98/Virtual_Library_Website">
-    <img src="images/splashpage_icon.png" alt="Logo" width="80" height="80">
+    <img src="images/splashpage_icon.png" alt="Logo" width="45%" height="45%">
   </a>
 
 <h3 align="center">Virtual Library</h3>
