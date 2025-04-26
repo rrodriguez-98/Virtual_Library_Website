@@ -13,6 +13,7 @@
 </head>
 <body>
     <header>
+        <!--Default Header-->
         <nav class="navigation-heading">
             <div>
                 Tackle a Good Book
@@ -22,16 +23,41 @@
                 <li><a href="./favorites.html" class="active-tab">Favorites</a></li>
                 <!--<li><a href="./favorites.html" class="active-tab">Favorites</a> <span class="badge text-bg-secondary">0</span></li>-->
                 <li><a href="./about.html" class="active-tab">About</a></li>
-                <li><a href="./contact.html" id="contact-header-button">Contact</a></li>
+                <li><a href="./contact.html" id="contact-header-button" >Contact</a></li>
             </ul>
+        </nav>
+        <!--Bootstrap Header for Smaller Screens-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Tackle a Good Book</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link"  href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="./favorites.html">Favorites</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
         </nav>
     </header>
     
     <main class="full-screen-view">
         <div class="about-me-container">
-            <h1>About Me</h1>
+            <h1 style="text-align: center;">About Me</h1>
             <div class="center-img">
-                <img src="./images/textbook.png" alt="Open book" height="460">
+                <img src="./images/textbook.png" alt="Open book" height="460px">
             </div>
             <div class="about-flex-pos">
                 <article>
@@ -43,9 +69,6 @@
                 </article>
             </div>
         </div>
-        
-        
-        
     </main>
 
     <footer>

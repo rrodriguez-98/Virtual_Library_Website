@@ -26,6 +26,7 @@ body{
     border-radius: 50%;
     border-style: solid;
     border-color: #CFB7B6;
+    height: 650px;
   }
 h1, h2, h3, h4{
     font-family: "Aboreto", system-ui;
@@ -117,7 +118,7 @@ hr{
     flex-wrap: wrap;
     margin-bottom: 5%;
   }
-.card{
+.book-card{
     position: relative;
     display: inline-block;
   }
@@ -142,14 +143,14 @@ hr{
     pointer-events: auto;
     padding:  10px 13px;
   }
-.card:hover .book{
+.book-card:hover .book{
     opacity: 0.6;
 }
-.card:hover .view-btn{
+.book-card:hover .view-btn{
     opacity: 1;
     pointer-events: auto;
   }
-.card:hover .favorite-icon{
+.book-card:hover .favorite-icon{
     opacity: 1;
     pointer-events: auto;
   }
@@ -219,6 +220,7 @@ hr{
     border-color: #F5EBE0;
     border-width: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
   }
 .select-random-bk-btn:hover{
     background-color: #E3D5CA;
@@ -251,7 +253,7 @@ section h1{
   text-align: center;
   padding-left: 0;
 }
-.test h4{
+.genre-section h4{
   text-align: center;
   padding-bottom: 35px;
 }
@@ -406,3 +408,94 @@ label span {
 .form-submit-btn:hover{
   background-color: #333;
 }
+
+/*------------------Responsive Styles------------------*/
+.navbar{
+    background-color: #CFB7B6 !important; 
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: black !important;
+  }
+
+.nav-link:hover {
+    color: white !important;
+  }
+
+.blockquote-footer{
+    background-color: white !important;
+    color: black;
+  }
+.card-header{
+    background-color: #CFB7B6 !important; 
+}
+.card{
+    margin: 3%;
+}
+/*Set screens 750px and below*/
+@media only screen and (max-width: 750px){
+    #summary-img{
+        display: none;
+    }
+    .splashpage_icon{
+        /*height: 12%;*/
+        height: 260px;
+    }
+    .heading-container{
+        padding-bottom: 20%;
+    }/*
+    .full-screen-view{
+        height: 30vh;
+    }*/
+}
+/*Set screens 600px and below*/
+@media only screen and (max-width: 600px){
+    .navigation-heading, .spotlight-section, .background-wrapper-random-flip, .genre-section{
+        display: none !important;
+    }
+    .footer-container div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .form-row.two-col{
+        flex-direction: column;
+        gap: 0
+    }
+    .center-favorites{
+        text-align: left;
+        list-style-position: inside;
+        margin-left: 1%;
+    }
+    .navbar{
+        --bs-navbar-brand-font-size: 0.75rem;
+    }
+    .book-card .book{
+        width: 100%;
+        height: auto;
+        padding: 0, 5%;
+    }
+    a .footer-links{
+        padding: 0px;
+    }
+    .footer-container p{
+        text-align: center;
+    }
+    .about-me-container img{
+        height: 20%;
+    }
+.button-padding-browse {
+    display:inline-block;
+    transform: translateY(-8rem);
+}
+.splashpage_icon{
+    transform: translateY(2rem);
+}
+}
+/*Set screens 600.1px and above*/
+@media only screen and (min-width: 600.1px) {
+    .navbar, .mobile-card-quotes{
+        display: none;
+    }
+  }
+
