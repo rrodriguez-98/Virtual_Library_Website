@@ -439,7 +439,7 @@ label span {
         display: none;
     }
     .splashpage_icon{
-        height: 6%;
+        height: 12%;
     }
     .heading-container{
         padding-bottom: 20%;
@@ -486,7 +486,7 @@ label span {
     }
 .button-padding-browse {
     display:inline-block;
-    transform: translateY(-11rem);
+    transform: translateY(-6rem);
 }
 }
 /*Set screens 600.1px and above*/
